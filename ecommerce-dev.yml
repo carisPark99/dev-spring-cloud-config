@@ -1,3 +1,9 @@
+spring:
+    datasource:
+    url: jdbc:mysql://127.0.0.1:3306/dev?serverTimezone=Asia/Seoul
+    username: '{cipher}534d0fdd4dba47b6ff4f0c60040e840980213837fee608e6344ed8dec271743c'
+    password: '{cipher}68665d74de47904fd56c1311ebedea1c5dc8e30a7148ef597bc2fe85930656db'
+    driver-class-name: com.mysql.jdbc.Driver
 token:
   expiration_time: 86400000
   secret: userServiceToken!@!_dev
