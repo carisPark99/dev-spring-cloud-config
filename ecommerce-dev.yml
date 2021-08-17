@@ -9,4 +9,4 @@ token:
   secret: userServiceToken!@!_dev
   
 gateway:
-  ip: 192.168.0.61
+  ip: 192.168.19.235
