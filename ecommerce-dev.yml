@@ -14,4 +14,4 @@ gateway:
 order-service:
   url: http://ORDER-SERVICE/order-service/%s/orders
   exception:
-    orderEmpty: Users OrderInfo is empty!
+    orderEmpty: Users OrderInfo is empty!!
