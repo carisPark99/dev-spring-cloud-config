@@ -5,8 +5,8 @@ spring:
       password: '{cipher}AQBxIShcfF0wNE59G0EXNeT5gqqLSz0+9sGakd6585/E9DL8sVJQIB3pv2Jl9s7B+bpT0ec7zy+I1tB8PiQn4AhWGk6m7+6EIU/gjGWiAUOwH0w1U4hcK9YEB4mm6aazHf1teZkO8tMao+SjUZrBp25/TXv78Y5FsicGQdfX2cvgFsxoGJiDdBQuvLSyrmPB7r9MvPTazsRCOk+nAYrALpmZMRNnjZt21/ktcmoWcTtfmF2x1ItCa5COi0xxMQCCPakISNSD/pOlLy8xLuiA4umr8b09OzpeXS2rs1USjUBnJnD2QYbBTkl8JPh3ouXw8IYC52d8SVsdMg6EDdpVoNXTonqxp/iVSVidT/k1w19AGuLZx4vLaLj56MMIE99Oc6k='
       driver-class-name: com.mysql.jdbc.Driver
 token:
-  expiration_time: 86400000
-  secret: userServiceToken!@!_dev
+  expiration_time: 86400000 #userServiceToken!@!_dev
+  secret: '{cipher}AQAR8QyR5llRmyldoZEvnTawVdeYRjsB+MO2r888j+/FoMpGPGKtRfSId33HV9gJLa+IeqNyWDUyS46z7U9LbgCkEkkaA6Sbss4aKc5EkHkUESRc3kEhxJ4ZQrw6e/pDUnG1JyjlICFQa3xQf3ta7bxlfJsDTaxAsS5DFQjxOByWQOpyo/U+W1eb7UIDqe8S1jsg0gen1VDFgTwmKMCrC3deRW8SQLyxshqJDzewVKLFzqsJ7e9fuMhRq5N3U6e82xLy5xEZ4jfOyqUQvLR42OkuxGD5NQQPDR7fUJC+al/kzHH2LSrVuizUBMpBKe93p3vxXs2tsSVmarlQszF2Pl3arBaCAGtqVks2E6ITGXOKh/qfbrpDj9yRSC4Jhg03FbrilaPR9sEAmneoHIAtYNN8'
   
 gateway:
   ip: 192.168.19.235
